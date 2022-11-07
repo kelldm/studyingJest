@@ -1,5 +1,6 @@
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import Formulario from  './Formulario' ;
 
 //Jest
 
@@ -10,7 +11,7 @@ test('when input is empty, new participants can NOT be added', () => {
     // encontrar no DOM o input
     const input = screen.getByPlaceholderText('Insira o nome dos participantes')
     // encontrar o botão
-    const botao = screen.gerByRole('button')
+    const botao = screen.getByRole('button')
     
     // garantir que o input esteja no documento
     expect(input).toBeInTheDocument()
