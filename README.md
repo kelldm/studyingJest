@@ -1,7 +1,9 @@
 # Vamos testar?
  Documentando estudos realizados com base no curso da Alura de Jest! 
- Nota: foi utilizando react testing-library
-##Teste 1
+ Nota: foi utilizando react testing-library.
+ 
+ 
+## Teste 1
 
 <strong> OBJETIVOS </strong>
 - Encontrar no DOM o input
